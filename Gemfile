@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-ruby '2.3.1'
+ruby '2.3.3'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'sqlite3'
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 3.9'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
@@ -38,3 +38,4 @@ group :test do
   gem 'launchy'
   gem 'selenium-webdriver'
 end
+gem 'sqreen'
