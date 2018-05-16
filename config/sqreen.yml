@@ -1,1 +1,5 @@
 token: c2e69fe507294002afb1295df8a25e497aff24ad7d48483b964ac67999317388
+#token: 58e53d1324eef6265fdb97b08ed9aadf18e40e1401eef67e1ae69efab09afb71
+#url: 'http://172.19.0.5:5000/'
+log_level: debug
+log_location: /tmp/sqreen-ruby-agent.log

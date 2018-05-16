@@ -9,6 +9,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
+gem 'mongo', '~> 2.4'
 group :development, :test do
   gem 'byebug', platform: :mri
 end
@@ -38,4 +39,10 @@ group :test do
   gem 'launchy'
   gem 'selenium-webdriver'
 end
-gem 'sqreen'
+#gem ENV['EXECJS_RUNTIME'] == 'MiniRacer' ? 'sqreen-alt' : 'sqreen', github: 'sqreen/AgentRuby', branch: 'master'
+#gem 'mini_racer', github: 'cataphract/mini_racer', branch: 'master'
+#gem 'libv8', github: 'cowboyd/libv8', submodules: true, branch: '3.16'
+#gem 'therubyracer', '0.12.3'
+gem 'ruby-prof'
+gem 'ruby-debug-ide'
+gem 'debase'
